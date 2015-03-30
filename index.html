@@ -54,9 +54,7 @@
           <img src="Img/slide4.jpg" class="img-responsive" alt="image1">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Welcome to </h1><br>
-              <h1>Software Engineering Laboratory at the University of Aizu</h1><br>
-              <p><a class="btn btn-lg btn-primary" href="about_us.html" role="button">About Us</a></p>
+              <h1><div id="fittext1">Welcome to <br>Software Engineering Laboratory at the University of Aizu</div></h1><br>
               <!--カウンターできないよぉ
               <script type="text/javascript">
               if (localStorage.pagecount)
@@ -76,9 +74,7 @@
           <img src="Img/slide6.jpg" class="img-responsive"　alt="image2">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Welcome to </h1><br>
-              <h1>Software Engineering Laboratory at the University of Aizu</h1><br>
-              <p><a class="btn btn-lg btn-primary" href="about_us.html" role="button">About Us</a></p>
+              <h1><div id="fittext2">Welcome to <br>Software Engineering Laboratory at the University of Aizu</div></h1><br>
               <!--
               <script type="text/javascript">
               document.write("You are the "+ localStorage.pagecount + " visitor.");
@@ -91,9 +87,7 @@
           <img src="Img/slide7.jpg" class="img-responsive"　alt="image3">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Welcome to </h1><br>
-              <h1>Software Engineering Laboratory at the University of Aizu</h1><br>
-              <p><a class="btn btn-lg btn-primary" href="about_us.html" role="button">About Us</a></p>
+              <h1><div id="fittext3">Welcome to <br>Software Engineering Laboratory at the University of Aizu</div></h1><br>
               <!--
               <script type="text/javascript">
               document.write("You are the "+ localStorage.pagecount + " visitor.");
@@ -105,9 +99,7 @@
           <img src="Img/slide8.jpg" class="img-responsive"　alt="image3">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Welcome to </h1><br>
-              <h1>Software Engineering Laboratory at the University of Aizu</h1><br>
-              <p><a class="btn btn-lg btn-primary" href="about_us.html" role="button">About Us</a></p>
+              <h1><div id="fittext4">Welcome to <br>Software Engineering Laboratory at the University of Aizu</div></h1><br>
               <!--
               <script type="text/javascript">
               document.write("You are the "+ localStorage.pagecount + " visitor.");
@@ -120,5 +112,14 @@
         </div><!-- /.carousel -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="css/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.fittext.js"></script>
+    <script>
+      $("#fittext1").fitText(1.5);
+      $("#fittext2").fitText(1.5);
+      $("#fittext3").fitText(1.5);
+      $("#fittext4").fitText(1.5);
+    </script>
 	</body>
 </html>
